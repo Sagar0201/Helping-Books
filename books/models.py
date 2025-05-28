@@ -18,7 +18,7 @@ class Book(models.Model):
     book_name = models.CharField(max_length=50)
     book_category = models.CharField(max_length=50)
     book_outher = models.CharField(max_length=50)
-    user_mobile_no = models.IntegerField()
+    user_mobile_no = models.BigIntegerField(default=0)
     book_info = models.CharField(max_length=500)
     user_address = models.CharField(max_length=500)
 
