@@ -20,7 +20,7 @@ function scrollupper() {
   var posts = document.getElementById('bookposts');
   var scroll = window.scrollY;
 
-  if (scroll < 900) {
+  if (scroll < 600) {
     posts.classList.remove('scrollupper');
   } else {
     posts.classList.add('scrollupper');
